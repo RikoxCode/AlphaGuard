@@ -59,6 +59,11 @@ class UserController extends Controller
 
     private function generateSlug($name)
     {
+        $name = str_replace(' ', '-', $name);
+        while (User::where('slug', $name)->count() > 0) {
+            $name = $name . '-' . rand(0, 9);
+        }
+
         $countOfSlug = User::where('slug', $name)->count();
         if ($countOfSlug === 0) {
             return strtolower($name);
