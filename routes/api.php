@@ -40,6 +40,4 @@ Route::prefix('v1')->group(function() {
         Route::post('/{user}', [FriendController::class, 'store'])->middleware('auth:sanctum');
         Route::get('/', [FriendController::class, 'index'])->middleware('auth:sanctum');
     });
-
-
 });
