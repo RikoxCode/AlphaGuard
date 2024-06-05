@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29fc0a3-6799-406d-bc73-6d3d37e78e16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d29dce7a-2272-4dbb-8c38-621365e42b64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d29dce7a-2272-4dbb-8c38-621365e42b64.xml" afterDir="false" />
+    <list default="true" id="f29fc0a3-6799-406d-bc73-6d3d37e78e16" name="Changes" comment="fix; slug generation">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/LogResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Resources/LogResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2024_06_05_194248_create_logs_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_05_13_200000_merge_relations.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,24 +169,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#3 on development",
-    "last_opened_file_path": "O:/laragon/www/MetaLink",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;O:/laragon/www/MetaLink&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
@@ -225,11 +228,31 @@
       <workItem from="1716149328754" duration="3728000" />
       <workItem from="1716226719812" duration="646000" />
       <workItem from="1716325083658" duration="1422000" />
-      <workItem from="1716484785513" duration="1575000" />
+      <workItem from="1716484785513" duration="3584000" />
+      <workItem from="1716570337935" duration="9000" />
+      <workItem from="1716590328906" duration="2781000" />
+      <workItem from="1716635943708" duration="684000" />
+      <workItem from="1716643685986" duration="1164000" />
+      <workItem from="1716736462590" duration="585000" />
+      <workItem from="1717186174464" duration="593000" />
+      <workItem from="1717616512422" duration="4565000" />
     </task>
+    <task id="LOCAL-00001" summary="fix; slug generation">
+      <option name="closed" value="true" />
+      <created>1716489896445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716489896445</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix; slug generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix; slug generation" />
   </component>
 </project>
